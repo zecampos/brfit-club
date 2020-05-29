@@ -1,3 +1,4 @@
+import react from 'react'
 import Head from "next/head";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { TiSocialFacebook } from "react-icons/ti";
@@ -32,7 +33,7 @@ import {
   ThirdText,
   ContentIcon,
   GetStartedButton,
-} from "./styles";
+} from "../src/styles/styles";
 export default function Home() {
   return (
     <>
