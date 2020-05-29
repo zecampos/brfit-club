@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Gilroy-ExtraBold";
+  src: url("/fonts/Gilroy-ExtraBold.otf");
+}
+
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: url("/fonts/OpenSans-Regular.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+body {
+  background: #070707;
+  color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+}
+body,
+input,
+button {
+  font-size: 18;
+  font-family: "OpenSans-Regular", serif;
+}
+button {
+  cursor: pointer;
+}
